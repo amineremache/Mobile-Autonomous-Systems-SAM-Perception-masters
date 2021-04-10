@@ -11,7 +11,7 @@ function plot_setup_mot(sensor)
     grid on
     xlabel('lateral - x (meters)')
     ylabel('longitudinal - y (meters)')
-    pause(10)
+    %pause(10)
     % plot sensor rays
     delete(findobj('Tag', 'sensor'))
     plot_sensor_rays(sensor);

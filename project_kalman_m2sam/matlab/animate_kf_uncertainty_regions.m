@@ -6,7 +6,7 @@ function animate_kf_uncertainty_regions(kf, dims)
     
     % setup figure
     figure(3);
-    pause(10)
+    %pause(10)
     clf
     axis equal
     grid on;
